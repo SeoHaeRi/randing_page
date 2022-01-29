@@ -137,3 +137,23 @@ table {
     margin: -1px;
     overflow: hidden;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+button {
+    border-style: none;
+    background-color: transparent;
+}
+
+input {
+    border: none;
+    outline: none;
+}

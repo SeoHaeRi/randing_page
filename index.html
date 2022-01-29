@@ -11,28 +11,28 @@
 </head>
 
 <body>
-    <header>
-        <div>
+    <header class="header">
+        <div class="home-logo">
             <h1 class="title">
                 <a href="#home">
-                    <span class="sr-only">HODU</span>
-                    <img src="img/logo.svg" alt="HODU"></img>
+                    <span class="txt-hide">HODU</span>
+                    <img src="img/logo.svg" alt="HODU">
                 </a>
             </h1>
         </div>
-        <nav>
-            <h2 class="sr-only">메인메뉴</h2>
+        <nav class="nav-menu">
+            <h2 class="txt-hide">메인메뉴</h2>
             <ul class="list-menu">
                 <li class="link-menu"><a href="#home">Home</a></li>
                 <li class="link-menu"><a href="#about">About</a></li>
                 <li class="link-menu"><a href="#support">Support</a></li>
-                <li class="link-menu"><a href="#download">Download</a></li>
             </ul>
+            <button class="btn-download">Download</button>
         </nav>
     </header>
     <main>
         <section>
-            <article>
+            <article class="page1">
                 <div>
                     <p>
                         <strong>
@@ -108,14 +108,14 @@
     <footer>
         <img src="img/logo.svg" alt="">
         <div class="area-sns">
-            <button><span class="src-only">블로그</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <button><span class="txt-hide">블로그</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M13.096 7.18477C11.7929 7.18477 10.5732 7.54601 9.53402 8.17587V2H5V20.6457H9.53402V20.0089C10.5732 20.6364 11.7929 21 13.096 21C16.9079 21 20 17.9063 20 14.0924C20 10.2762 16.9102 7.18477 13.096 7.18477ZM12.4271 16.8781C10.8301 16.8781 9.53402 15.5814 9.53402 13.9835C9.53402 12.3857 10.8301 11.089 12.4271 11.089C14.0241 11.089 15.3202 12.3857 15.3202 13.9835C15.3202 15.5837 14.0241 16.8781 12.4271 16.8781Z"
                         fill="white" />
                 </svg>
             </button>
-            <button><span class="src-only">인스타그램</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <button><span class="txt-hide">인스타그램</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
@@ -127,13 +127,13 @@
                         stroke-linejoin="round" />
                 </svg>
             </button>
-            <button><span class="src-only">페이스북</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <button><span class="txt-hide">페이스북</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z"
                         fill="white" />
                 </svg></button>
-            <button><span class="src-only">유튜브</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+            <button><span class="txt-hide">유튜브</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M22.54 6.42C22.4212 5.94541 22.1792 5.51057 21.8386 5.15941C21.498 4.80824 21.0707 4.55318 20.6 4.42C18.88 4 12 4 12 4C12 4 5.11996 4 3.39996 4.46C2.92921 4.59318 2.50194 4.84824 2.16131 5.19941C1.82068 5.55057 1.57875 5.98541 1.45996 6.46C1.14518 8.20556 0.991197 9.97631 0.999961 11.75C0.988741 13.537 1.14273 15.3213 1.45996 17.08C1.59092 17.5398 1.83827 17.9581 2.17811 18.2945C2.51794 18.6308 2.93878 18.8738 3.39996 19C5.11996 19.46 12 19.46 12 19.46C12 19.46 18.88 19.46 20.6 19C21.0707 18.8668 21.498 18.6118 21.8386 18.2606C22.1792 17.9094 22.4212 17.4746 22.54 17C22.8523 15.2676 23.0063 13.5103 23 11.75C23.0112 9.96295 22.8572 8.1787 22.54 6.42Z"

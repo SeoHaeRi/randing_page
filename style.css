@@ -1,6 +1,21 @@
 @charset "utf-8";
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
+/* txt */
+.strong-txt {
+    display: block;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+}
+.normal-txt {
+    display: block;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* header */
 .header {
     display: flex;
     width: 100%;
@@ -47,35 +62,29 @@
     line-height: 20px;
 }
 
+/* page1 */
 .page1 {
     background: #f2e9d8;
+    height: 798px;
 }
-.page1-text {
+.page1-txt {
     position: absolute;
     top: 302px;
     left: 15%;
 }
-.page1-text > p {
+.page1-txt > p {
     margin-bottom: 40px;
 }
-.strong-txt {
-    display: block;
+.page1-txt .strong-txt {
     width: 737px;
     height: 120px;
     margin-bottom: 40px;
-    font-family: Spoqa Han Sans Neo;
-    font-style: normal;
-    font-weight: bold;
     font-size: 48px;
     line-height: 60px;
 }
-.normal-txt {
-    display: block;
+.page1-txt .normal-txt {
     width: 439px;
     height: 86px;
-    font-family: Spoqa Han Sans Neo;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 20px;
 }
@@ -83,4 +92,80 @@
     position: absolute;
     right: 15%;
     width: 360px;
+}
+
+/* page2 */
+.page2 {
+    position: absolute;
+    top: 900px;
+    left: 15%;
+    height: 798px;
+}
+
+.page2-img-txt {
+    display: flex;
+    margin-top: 80px;
+}
+
+.page2-img-txt .page2-img {
+    width: 500px;
+    height: 300px;
+    margin-right: 110px;
+    filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+}
+
+.page2-img-txt .page2-txt {
+    width: 450px;
+    height: 170px;
+}
+
+.page2-txt .strong-txt {
+    font-size: 36px;
+    line-height: 45px;
+}
+.page2-txt .normal-txt {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.page2 > .page2-txt {
+    position: absolute;
+    top: 500px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+.page2 > .page2-txt > .strong-txt {
+    font-size: 48px;
+    line-height: 60px;
+    color: #d97652;
+}
+
+/* page3 */
+
+.page3 {
+    position: absolute;
+    top: 1700px;
+}
+.page3-img > img {
+    width: 370px;
+    filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
+}
+
+/* page4 */
+.page4 {
+    position: absolute;
+    top: 2500px;
+}
+
+/* footer */
+.footer {
+    position: absolute;
+    top: 3000px;
+    height: 160px;
 }

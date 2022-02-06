@@ -15,6 +15,20 @@
     font-weight: normal;
 }
 
+/* button */
+.btn-component {
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    background: #d97652;
+    color: #fff;
+    font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
 /* header */
 .header {
     display: flex;
@@ -48,18 +62,8 @@
 .link-menu {
     margin-left: 30px;
 }
-.list-menu + .btn-download {
+.list-menu + .btn-component {
     margin-left: 40px;
-}
-.btn-download {
-    width: 140px;
-    height: 50px;
-    border-radius: 40px;
-    background: #d97652;
-    color: #fff;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
 }
 
 /* page1 */
@@ -150,17 +154,30 @@
 .page3 {
     position: absolute;
     top: 1700px;
+    display: flex;
+    flex-flow: column;
 }
 .page3-img > img {
-    width: 370px;
+    width: 350px;
     filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
     border-radius: 30px;
+    margin-right: 40px;
+}
+.page3-txt {
+    display: flex;
+    margin-top: 90px;
+}
+
+.page3-txt .normal-txt {
+    width: 739px;
+    height: 64px;
+    margin-right: 40px;
 }
 
 /* page4 */
 .page4 {
     position: absolute;
-    top: 2500px;
+    top: 2700px;
 }
 
 /* footer */

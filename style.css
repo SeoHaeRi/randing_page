@@ -8,6 +8,7 @@
     font-style: normal;
     font-weight: bold;
 }
+
 .normal-txt {
     display: block;
     font-family: Spoqa Han Sans Neo;
@@ -37,6 +38,7 @@
     background: #f2e9d8;
     position: relative;
 }
+
 .home-logo {
     position: absolute;
     width: 130px;
@@ -44,6 +46,7 @@
     left: 15%;
     top: 31px;
 }
+
 .nav-menu {
     display: flex;
     position: absolute;
@@ -52,6 +55,7 @@
     align-items: center;
     padding: 0px;
 }
+
 .list-menu {
     display: flex;
     font-family: Spoqa Han Sans Neo, sans-serif;
@@ -60,10 +64,12 @@
     font-size: 16px;
     line-height: 20px;
 }
+
 .link-menu {
     margin-left: 30px;
 }
-.list-menu + .btn-component {
+
+.list-menu+.btn-component {
     margin-left: 40px;
 }
 
@@ -75,9 +81,11 @@
     background: #f2e9d8;
     height: 798px;
 }
-.page1-txt > p {
+
+.page1-txt>p {
     margin-bottom: 40px;
 }
+
 .page1-txt .strong-txt {
     width: 737px;
     height: 120px;
@@ -85,12 +93,14 @@
     font-size: 48px;
     line-height: 60px;
 }
+
 .page1-txt .normal-txt {
     width: 439px;
     height: 86px;
     font-size: 16px;
     line-height: 20px;
 }
+
 .page1-img {
     width: 360px;
 }
@@ -128,19 +138,22 @@
     font-size: 36px;
     line-height: 45px;
 }
+
 .page2-txt .normal-txt {
     width: 739px;
     margin-top: 30px;
     font-size: 16px;
     line-height: 20px;
 }
-.page2 > .page2-txt {
+
+.page2>.page2-txt {
     display: flex;
     flex-flow: column;
     align-items: center;
     text-align: center;
 }
-.page2 > .page2-txt > .strong-txt {
+
+.page2>.page2-txt>.strong-txt {
     font-size: 48px;
     line-height: 60px;
     color: #d97652;
@@ -152,16 +165,19 @@
     flex-flow: column;
     align-items: center;
 }
+
 .page3-img {
     display: flex;
     justify-content: center;
 }
-.page3-img > img {
+
+.page3-img>img {
     width: 378px;
     filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
     border-radius: 30px;
     margin-right: 40px;
 }
+
 .page3-txt {
     display: flex;
     margin-top: 90px;
@@ -174,15 +190,30 @@
 }
 
 /* page4 */
-.page4 {
+.page4 {}
 
+.subscribe {
+    width: 1280px;
+    height: 200px;
+    background: #263140;
+    border-radius: 30px;
+}
+
+.subscribe .strong-txt {
+    width: 466px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
 }
 
 /* footer */
 .footer {
     height: 160px;
 }
-.footer > img {
+
+.footer>img {
     width: 200px;
 }
 

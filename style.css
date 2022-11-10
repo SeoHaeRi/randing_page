@@ -35,6 +35,7 @@
     width: 100%;
     height: 102px;
     background: #f2e9d8;
+    position: relative;
 }
 .home-logo {
     position: absolute;
@@ -68,13 +69,11 @@
 
 /* page1 */
 .page1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background: #f2e9d8;
     height: 798px;
-}
-.page1-txt {
-    position: absolute;
-    top: 302px;
-    left: 15%;
 }
 .page1-txt > p {
     margin-bottom: 40px;
@@ -93,34 +92,35 @@
     line-height: 20px;
 }
 .page1-img {
-    position: absolute;
-    right: 15%;
     width: 360px;
 }
 
 /* page2 */
 .page2 {
-    position: absolute;
-    top: 900px;
-    left: 15%;
     height: 798px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
 }
 
-.page2-img-txt {
+.page2 .page2-img-txt {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     margin-top: 80px;
 }
 
 .page2-img-txt .page2-img {
-    width: 500px;
-    height: 300px;
+    width: 660px;
+    height: 390px;
     margin-right: 110px;
     filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
     border-radius: 30px;
 }
 
 .page2-img-txt .page2-txt {
-    width: 450px;
+    width: 510px;
     height: 170px;
 }
 
@@ -129,20 +129,17 @@
     line-height: 45px;
 }
 .page2-txt .normal-txt {
+    width: 739px;
     margin-top: 30px;
     font-size: 16px;
     line-height: 20px;
 }
-
 .page2 > .page2-txt {
-    position: absolute;
-    top: 500px;
     display: flex;
     flex-flow: column;
     align-items: center;
     text-align: center;
 }
-
 .page2 > .page2-txt > .strong-txt {
     font-size: 48px;
     line-height: 60px;
@@ -150,15 +147,17 @@
 }
 
 /* page3 */
-
 .page3 {
-    position: absolute;
-    top: 1700px;
     display: flex;
     flex-flow: column;
+    align-items: center;
+}
+.page3-img {
+    display: flex;
+    justify-content: center;
 }
 .page3-img > img {
-    width: 350px;
+    width: 378px;
     filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
     border-radius: 30px;
     margin-right: 40px;
@@ -176,13 +175,20 @@
 
 /* page4 */
 .page4 {
-    position: absolute;
-    top: 2700px;
+
 }
 
 /* footer */
 .footer {
-    position: absolute;
-    top: 3000px;
     height: 160px;
+}
+.footer > img {
+    width: 200px;
+}
+
+.sns-icon {
+    width: 42px;
+    height: 42px;
+    background: #F29D52;
+    border-radius: 50%;
 }
